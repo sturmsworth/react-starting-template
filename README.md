@@ -14,7 +14,18 @@ The Routes folder contains all route variables.
 
 Pages is for page containers/views.
 
-Create a Utils folder for Firebase APIs and connections and follow Firebase documentation as necessary.
+Components folder contains:
+
+- MyNav - bootstrap Nav with dark theme, this is just designed to be placeholder
+- App - standard App component, moved into the components folder and wired up for react-router-dom.
+  Add more routes as needed.
+
+## Todo
+
+- Create a Utils folder for Firebase APIs and connections and follow Firebase documentation as necessary.
+- Add template for Context API
+- Add template for Firebase API
+- Create HOCs for commonly-used React-Bootstrap components
 
 ## React Documentation
 
