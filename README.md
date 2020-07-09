@@ -1,3 +1,23 @@
+## Custom Details
+
+This project was created with the intention of making it easier to setup custom projects in the future when using React, react-router-dom, react-bootstrap, and firebase.
+
+This is barebones, but more features and functionality will be added as deemed necessary.
+
+To get started just download the included files, install the packages associated with the application, then go ahead and start editing.
+
+## folder/files and additional editing tips
+
+This is designed to get you working as quickly as possible.
+
+The Routes folder contains all route variables.
+
+Pages is for page containers/views.
+
+Create a Utils folder for Firebase APIs and connections and follow Firebase documentation as necessary.
+
+## React Documentation
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
