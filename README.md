@@ -6,6 +6,21 @@ This is barebones, but more features and functionality will be added as deemed n
 
 To get started just download the included files, install the packages associated with the application, then go ahead and start editing.
 
+## updates
+
+- added more packages, utils, firebase functionality
+
+## packages included:
+
+- react-router-dom
+- react-parallax
+- react-device-detect
+- react-reveal
+- bootstrap
+- react-bootstrap
+- firebase
+- node-sass
+
 ## folder/files and additional editing tips
 
 This is designed to get you working as quickly as possible.
@@ -19,12 +34,12 @@ Components folder contains:
 - MyNav - bootstrap Nav with dark theme, this is just designed to be placeholder
 - App - standard App component, moved into the components folder and wired up for react-router-dom.
   Add more routes as needed.
+- ./utils/firebase.js - contains necessary files for firebase connectivity. Just edit the templates with
+  the provided info after creating a new firebase project and you're good to go!
+- ./utils/firebase-api.js - create frontend firebase api here
 
 ## Todo
 
-- Create a Utils folder for Firebase APIs and connections and follow Firebase documentation as necessary.
-- Add template for Context API
-- Add template for Firebase API
 - Create HOCs for commonly-used React-Bootstrap components
 
 ## React Documentation
