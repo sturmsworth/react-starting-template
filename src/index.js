@@ -5,17 +5,22 @@ import * as serviceWorker from "./serviceWorker";
 // packages
 import { BrowserRouter } from "react-router-dom";
 
+// context-providers
+import UserContextProvider from "./context/UserContext";
+
 // components
-import App from "./components/App";
+import App from "./App";
 
 // scss
 import "./styles/index.scss";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <UserContextProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </UserContextProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
